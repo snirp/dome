@@ -1,6 +1,7 @@
 const TXT = 'TXT'
 
 export default function createElement(type, config, ...args) {
+  console.log(config)
   const props = Object.assign({}, config)
   const rawChildren = args.length > 0 ? [].concat(...args) : []
   props.children = rawChildren
