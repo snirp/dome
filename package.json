@@ -1,0 +1,32 @@
+{
+  "name": "dome",
+  "version": "0.1.0",
+  "description": "Dom Elements",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snirp/dome.git"
+  },
+  "author": "Roy Prins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snirp/dome/issues"
+  },
+  "homepage": "https://github.com/snirp/dome#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-jsx": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {}
+}
